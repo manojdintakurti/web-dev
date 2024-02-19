@@ -61,5 +61,19 @@ body {
 
 .home-button{
   color: red;
+}
+.header-top{
+  display: flex;
+  justify-content: space-between;
+}
 
+.store-name{
+  font-family: Georgia, serif;
+font-size: 40px;
+}
+.header-top-left, .header-bottom-right{
+  display: flex;
+}
+.header-button{
+  font-size: 20px;
 }
