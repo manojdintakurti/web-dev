@@ -1,0 +1,94 @@
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 1200px;
+  overflow: ;
+}
+.fa-brands {
+  font-size: 25px;
+}
+.footer-left, .footer-right {
+  flex-basis: 30%;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.footer-left {
+  font-size: 14px;
+}
+
+.footer-right {
+  font-size: 10px;
+}
+
+.footer-center {
+  flex-basis: 40%;
+}
+
+.footer-center ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.footer-center ul li {
+  margin-bottom: 10px;
+}
+
+.footer-center ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 11px;
+}
+
+.footer-center ul li a:hover {
+  text-decoration: underline;
+}
+
+.copyright-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 10px;
+}
+
+.copyright-row span {
+  margin-right: 10px;
+}
+
+.copyright-row a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.copyright-row a:hover {
+  text-decoration: underline;
+}
+
+.follow-us {
+  text-align: right;
+  color: #fff;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 10px;
+}
+
+.follow-us p {
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+.social-icons img {
+  margin-right: 5px;
+}
+
+.payment-icons img {
+  margin-right: 5px;
+  font-size: 9px;
+}
