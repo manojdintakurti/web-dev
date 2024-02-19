@@ -76,4 +76,46 @@ font-size: 40px;
 }
 .header-button{
   font-size: 20px;
+
+.middle, .footer {
+  border: 1px solid black;
+  text-align: center;
+  line-height: calc(60vh * 0.6); /* Center content vertically */
 }
+
+.header-top {
+  display: flex;
+  align-items: center;
+}
+
+.header-top img {
+  margin-right: 10px; /* Adjust spacing between elements */
+}
+
+.store-name,
+.caption,
+.login,
+.cart,
+.wishlist {
+  margin-right: 10px; /* Adjust spacing between elements */
+  font-family: 'Inter', sans-serif;
+}
+
+.store-name {
+  font-weight: 800; /* Extra bold */
+  font-size: 30px;
+  font-family: 'Inquit Antiqua', sans-serif; /* Custom font for store name */
+}
+
+.caption {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.login,
+.cart,
+.wishlist {
+  font-weight: 600; /* Semi-bold */
+  font-size: 20px;
+}
+
