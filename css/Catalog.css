@@ -17,3 +17,76 @@
   color: black;
   padding: 10px;
 }
+.catalog-books{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+background-color: #eaf4f9;
+  justify-items: center;
+}
+
+
+.book-image {
+  width: 100px;
+  height: 100%;
+  object-fit: cover;
+}
+.book-info {
+  padding: 10px;
+}
+.image-container {
+  position: relative;
+  display: inline-block;
+}
+.book-item{
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 210px;
+  height:300px;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+  background-color: #D9D9D9;
+}
+.read-now-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  background-color: lightgreen;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.buy-now-button {
+  background-color: mediumpurple;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 10px;
+}
+.buy-now-button:hover {
+  background-color: rebeccapurple;
+}
+.book-title{
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.book-author{
+  font-family: 'Open Sans', sans-serif;
+  font-size:14px;
+  font-weight: lighter;
+}
+.money{
+  color:red;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Olio Script', sans-serif;
+}
