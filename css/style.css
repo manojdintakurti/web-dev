@@ -73,14 +73,15 @@ font-size: 40px;
 }
 .header-top-left, .header-bottom-right{
   display: flex;
+  margin-top: 10px;
 }
 .header-button{
-  font-size: 20px;
+  margin-top: 20px;
+}
 
 .middle, .footer {
   border: 1px solid black;
   text-align: center;
-  line-height: calc(60vh * 0.6); /* Center content vertically */
 }
 
 .header-top {
@@ -92,14 +93,6 @@ font-size: 40px;
   margin-right: 10px; /* Adjust spacing between elements */
 }
 
-.store-name,
-.caption,
-.login,
-.cart,
-.wishlist {
-  margin-right: 10px; /* Adjust spacing between elements */
-  font-family: 'Inter', sans-serif;
-}
 
 .store-name {
   font-weight: 800; /* Extra bold */
@@ -112,10 +105,63 @@ font-size: 40px;
   font-size: 14px;
 }
 
-.login,
-.cart,
-.wishlist {
+.header-button{
   font-weight: 600; /* Semi-bold */
   font-size: 20px;
+  font-family: Inter;
+  font-weight: normal;
+  text-transform: capitalize;
+  padding-left: 20px;
+  padding-top: 20px;
+  text-decoration: none;
+  color: darkblue;
+  font-size: 20px;
+
 }
 
+/* Style the dropdown button */
+.dropbtn {
+  color: black;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980b9;
+}
+
+/* Style the dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #2980b9;
+}
